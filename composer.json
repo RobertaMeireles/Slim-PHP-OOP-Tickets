@@ -1,0 +1,19 @@
+{
+    "name": "fcosta/slim-tickets",
+    "authors": [
+        {
+            "name": "Francisco Costa",
+            "email": "jfcpcosta@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "3.12.1",
+        "slim/php-view": "^2.2",
+        "monolog/monolog": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "TicketManager\\": "src/TicketManager"
+        }
+    }
+}
